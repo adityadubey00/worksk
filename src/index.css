@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.status-pending {
+    color: red;
+}
+
+.status-completed {
+    color: green;
+}
+
+.navbar {
+    width: full;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar {
+    width: 200%;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 235%;
+    top: 40%;
+}
+
+.input-box {
+    width: 250%;
+}
